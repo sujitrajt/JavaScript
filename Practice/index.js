@@ -10,4 +10,14 @@ document.getElementById("button1").onclick = function() {
     console.log(userName)
     document.getElementById("welcome").innerHTML = "Hello world "+ userName;
 }
-  
+
+document.getElementById("button2").onclick = function () {
+    const subscribeChecked = document.getElementById('subCheckBox')
+    if(subscribeChecked.checked){
+        console.log("You are subscribed")
+    }else{
+        console.log("please subscribe");
+    }
+
+}
+const subscribeChecked = document.getElementById('subCheckBox')
